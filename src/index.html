@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+        <link rel="stylesheet" href="styles/style.scss" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script
+            src="https://kit.fontawesome.com/d72a10d9b9.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Miguel</title>
+    </head>
+    <body>
+        <div class="display">
+            <div class="sections">
+                <button class="selected-button" id="about">Sobre</button>
+                <button class="unselected-button" id="projects">
+                    Projetos
+                </button>
+            </div>
+            <div class="main-content">
+                <div class="author">
+                    <img
+                        class="avatar"
+                        src="https://avatars.githubusercontent.com/u/163367093?v=4"
+                        alt="Avatar"
+                    />
+                    <h1 class="name">Miguel</h1>
+                </div>
+                <p class="hello-world">("Olá, mundo!")</p>
+                <p class="about">
+                    Sou um desenvolvedor de <em>software</em>, apaixonado por
+                    tecnologia e por solucionar problemas.
+                </p>
+                <ul class="social-media">
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/in/miguel-tds/"
+                            ><i class="fab fa-linkedin"></i>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://github.com/torresds">
+                        <i class="fab fa-github"></i>GitHub</a>
+                        </a>
+                    </li>
+                </ul>
+                <section>
+                    <h3>Linguagens/Frameworks:</h3>
+                    <ul class="languages">
+                        <li>JavaScript/Typescript</li>
+                        <li>React</li>
+                        <li>Vue</li>
+                        <li>Next.js</li>
+                        <li>Lua</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Bancos de Dados:</h3>
+                    <ul class="languages">
+                        <li>MySQL</li>
+                        <li>Redis</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <script src="scripts/main.ts" type="module"></script>
+    </body>
+</html>
