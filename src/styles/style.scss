@@ -70,6 +70,8 @@ button {
         padding: 0.5rem;
         width: 10vw;
         height: 4vh;
+        min-height: 60px;
+        min-width: 100px;
         border-radius: 0.5rem;
         border: none;
     }
@@ -147,8 +149,11 @@ section {
 
 .projects-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr 1fr;
     gap: 1rem;
+    margin: 2.5%;
     justify-content: center;
     div {
         border-radius: 0.5rem;
