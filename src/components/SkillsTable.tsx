@@ -9,7 +9,6 @@ const skills: Skill[] = [
   { name: 'Vue', level: 'Capaz de desenvolver projetos reais' },
   { name: 'Next.js', level: 'Capaz de desenvolver projetos reais' },
   { name: 'Lua', level: 'Uma linguagem de hobby, não adaptado ao desenvolvimento de grandes projetos' },
-  // Adicione outros conhecimentos conforme necessário
 ];
 
 const SkillsTable: React.FC = () => {
